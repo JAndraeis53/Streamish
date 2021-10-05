@@ -9,7 +9,7 @@ using Streamish.Utils;
 namespace Streamish.Repositories
 {
 
-    public class VideoRepository : BaseRepository, IVideoRepository, IVideoRepository
+    public class VideoRepository : BaseRepository, IVideoRepository
     {
         public VideoRepository(IConfiguration configuration) : base(configuration) { }
 
